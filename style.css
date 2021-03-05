@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* gray: #939597 */
+/* yellow: #F5DF4D */
+body {
+  margin: 0;
+  padding: 24px;
+  background-color: #f9fbe7;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 23px,
+    #ddd 24px
+  );
+  background-color: #f9fbe7;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
+}
+a {
+  color: #005c9f;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 92, 159, 0.25);
+}
+a:hover {
+  color: #cf5c78;
+  border-color: rgba(207, 92, 120, 0.25);
+}
+h1 {
+  margin: 0;
+  line-height: 48px;
+  font-size: 48px;
+}
+h2 {
+  margin: 24px 0 0;
+}
+h3 {
+  margin: 24px 0 0;
+}
+p {
+  margin: 24px 0 0;
+}
+ul {
+  margin: 24px 0 0;
+}
+/* section Skills */
+.skills table {
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+  background-color: #f0eee9;
+}
+.skills table th,
+.skills table td {
+  height: 24px;
+  padding: 0 4px;
+  line-height: 21px;
+  border: 1px solid #ddd;
+  font-family: "Fira Mono", monospace;
+  font-size: 12px;
+}
+.skills table th {
+  text-align: center;
+}
+/* section Code examples */
+pre {
+  margin: 24px 0 0;
+  font-family: "Fira Mono", monospace;
+  font-size: 14px;
+  background-color: #f0eee9;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-contacts {
+    margin-top: 0;
+  }
+}
