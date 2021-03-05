@@ -7,7 +7,23 @@
 
 ## About
 
-I was born in Sverdlovsk, 1982.
+I was born in Sverdlovsk in 1982. Now I live in Krasnogorsk.
+
+I have been coding since 2006.
+I write valid, cross-browser HTML and CSS.
+I can do responsive layout, Flexbox and Grid Layout.
+
+I know JavaScript basics well, I use ES6 and current specifications.
+I have basic knowledge of TypeScript.
+
+I know how the Gulp / Webpack / Rollup / Parcel project builders work.
+
+I have experience with Git.
+
+I understand the principles of the REST API, I understand GraphQL in general terms.
+I am familiar with the BEM methodology.
+
+I study Angular, Vue.js and NGRX & RxJS libraries.
 
 ## Skills
 
