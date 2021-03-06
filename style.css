@@ -91,6 +91,24 @@ pre {
   background-color: #f0eee9;
   overflow-y: scroll;
 }
+footer {
+  margin-top: 44px;
+}
+footer ul {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  list-style-type: none;
+}
+footer li {
+  width: 50%;
+}
+footer a {
+  border-bottom: none;
+}
+.course-logo img {
+  height: 100%;
+}
 @media screen and (min-width: 640px) {
   .about img {
     float: left;
@@ -111,6 +129,9 @@ pre {
   }
   section {
     margin-top: 96px;
+  }
+  footer {
+    border-top: 3px solid #939597;
   }
 }
 @media screen and (min-width: 1024px) {
