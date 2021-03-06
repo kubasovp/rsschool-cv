@@ -55,6 +55,15 @@ li {
 li::marker {
   color: rgba(0, 92, 159, 0.25);
 }
+section {
+  margin-top: 48px;
+}
+/* section About  */
+.about img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 /* section Skills */
 .skills table {
   width: 100%;
@@ -82,7 +91,14 @@ pre {
   background-color: #f0eee9;
   overflow-y: scroll;
 }
-
+@media screen and (min-width: 640px) {
+  .about img {
+    float: left;
+    width: 256px;
+    margin-right: 24px;
+    border-radius: 50%;
+  }
+}
 @media screen and (min-width: 768px) {
   header {
     display: flex;
@@ -97,7 +113,7 @@ pre {
     margin-top: 96px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   main {
     display: flex;
     flex-wrap: wrap;
